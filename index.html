@@ -24,7 +24,7 @@
                         <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
@@ -41,7 +41,7 @@
                 <div class="home__data">
                     <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Vivek</span><br> CSE Student</h1>
 
-                    <a href="#" class="button">Contact</a>
+                    <a href="#contact" class="button">Contact</a>
                 </div>
 
                 <div class="home__social">
@@ -148,24 +148,15 @@
                 <h2 class="section-title">Work</h2>
 
                 <div class="work__container bd-grid">
-                    <a href="" class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
+                    <a href="" class="work__img">Bank Management System
+                        <img src="assets/img/bank.webp" alt="">
                     </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
+                    <a href="" class="work__img">Tic Tac Toe
+                        <img src="assets/img/tictac.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </a>
+                    <a href="" class="work__img">ATM Management System
+                        <img src="assets/img/atm.webp" alt="">
+                    
                 </div>
             </section>
 
@@ -174,11 +165,15 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
+
+                        <input type="hidden" name="access_key" value="7d42d266-b769-46d0-9d44-f1ed0e56ce86">
+                    
+                        <input type="text" placeholder="Name" name="name" class="contact__input" required>
+                        <input type="email" name="email" placeholder="Email" class="contact__input" required>
+                        <textarea name="message" class="contact__input" required></textarea>
+                        <button type="submit" class="contact__button button">Submit Form</button>
+                    
                     </form>
                 </div>
             </section>
@@ -201,5 +196,8 @@
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
+        <script src="script.js"></script>
+      
     </body>
+
 </html>
