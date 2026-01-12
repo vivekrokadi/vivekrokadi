@@ -10,7 +10,8 @@ I work primarily with React, Node.js, Express, and MongoDB, and I enjoy turning 
 
 Currently, I’m improving my backend architecture skills and preparing myself to be industry-ready for internships and entry-level software roles.
 
-* 🌍  I'm based in India (Kolhapur / Pune Region)
+* 📍 Athani, Karnataka, India
+* 🎓 B.Tech CSE @ SGU Kolhapur, Maharashtra
 * 🖥️  See my portfolio at [MyPortfolio](http://vivek-rokadi-portfolio.vercel.app/)
 * ✉️  You can contact me at [vivekrokadi@gmail.com](mailto:vivekrokadi@gmail.com)
 * 🧠  I'm currently learning Advanced React patterns, backend architecture with Node.js & Express, and building scalable full-stack applications.
